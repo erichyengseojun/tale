@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "About"
-author: "Chester"
+title: "Agtech research"
+author: 
 permalink: /about/
 ---
 
