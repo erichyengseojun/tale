@@ -5,11 +5,11 @@ author: "Chester"
 permalink: /about/
 ---
 
-<img src="{{ '/resource/img/home.jpg' | relative_url }}" style="width:70%; display:block; margin: 0 auto;" alt="home image" />
+<img src="{{ '/resource/img/home.jpg' | relative_url }}" style="width: 70%; display: block; margin: 0 auto;" alt="home image" />
 
-<h1 style="text-align:center;">Research in Agriculture + Technology</h1>
+<h1 style="text-align: center; font-weight: bold;">Research in Agriculture + Technology</h1>
 
-<section style="width:80vw; margin: 0 auto;">
+<section style="max-width: 800px; margin: 0 auto; text-align: justify;">
   <p>
     Agriculture technology, also known as agtech, refers to the use of
     technology in the agricultural industry to increase productivity,
@@ -19,7 +19,7 @@ permalink: /about/
   </p>
 
   <article style="display: flex; flex-direction: row; gap: 50px; justify-content: space-between;">
-    <p>
+    <p style="width: 48%;">
       Precision agriculture, for example, uses GPS and remote sensing
       technology to help farmers optimize their crop production by
       providing them with data on soil quality, crop health, and weather
@@ -28,7 +28,7 @@ permalink: /about/
       irrigation, and harvesting, which can save time and improve
       efficiency.
     </p>
-    <p>
+    <p style="width: 48%;">
       Biotechnology plays a crucial role in agriculture technology as
       well. It involves the use of genetically modified crops and
       microorganisms to increase crop yield and resilience to pests and
