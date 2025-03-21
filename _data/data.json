@@ -4,7 +4,7 @@
       {
         "name": "서현권 (Hyun Kwon Suh)",
         "period": "2022.03 ~ Now",
-        "email": "davidsuh79[at]sejong.edu / please replace [at] with @",
+        "email": "davidsuh79@sejong.edu",
         "description": "AI and Machine Learning in Agriculture: Computer Vision, Automation, Optimization",
         "url": "https://scholar.google.com/citations?user=k74yTt8AAAAJ&hl=en"
       }
@@ -32,6 +32,13 @@
         "email": "hyeonji_park@sju.ac.kr",
         "description": "Computer vision, Reinforcement learning",
         "url": "https://www.linkedin.com/in/hyeonji-park-498a13252/"
+      },
+      {
+        "name": "하승운",
+        "period": "2025.03 ~ ",
+        "email": "gktmddns12@sju.ac.kr",
+        "description": "Computer vision, Machine Learning",
+        "url": ""
       }
     ],
     "Researcher": [
