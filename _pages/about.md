@@ -5,11 +5,42 @@ author: "Chester"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+<img src="{{ '/resource/img/home.jpg' | relative_url }}" style="width:70%; display:block; margin: 0 auto;" alt="home image" />
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+<h1 style="text-align:center;">Research in Agriculture + Technology</h1>
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+<section style="width:80vw; margin: 0 auto;">
+  <p>
+    Agriculture technology, also known as agtech, refers to the use of
+    technology in the agricultural industry to increase productivity,
+    efficiency, and sustainability. It encompasses a wide range of
+    innovations, such as precision agriculture, automation, biotechnology,
+    and robotics.
+  </p>
 
-Thanks for reading!
+  <article style="display: flex; flex-direction: row; gap: 50px; justify-content: space-between;">
+    <p>
+      Precision agriculture, for example, uses GPS and remote sensing
+      technology to help farmers optimize their crop production by
+      providing them with data on soil quality, crop health, and weather
+      patterns. Automation technologies like drones, sensors, and robotic
+      machines help farmers automate tasks like crop monitoring,
+      irrigation, and harvesting, which can save time and improve
+      efficiency.
+    </p>
+    <p>
+      Biotechnology plays a crucial role in agriculture technology as
+      well. It involves the use of genetically modified crops and
+      microorganisms to increase crop yield and resilience to pests and
+      diseases. Robotics also offer great potential in agriculture
+      technology by providing solutions for labor shortages, allowing for
+      more efficient and precise farming practices.
+    </p>
+  </article>
+
+  <p>
+    Overall, agriculture technology has the potential to revolutionize the
+    agricultural industry by enabling farmers to produce more food with
+    fewer resources while reducing the environmental impact of farming.
+  </p>
+</section>

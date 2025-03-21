@@ -1,15 +1,15 @@
 <nav class="nav">
   <div class="nav-container">
-    <a href="{{ site.baseurl }}/">
+    <a href="{{ '/about' | prepend: site.baseurl }}">
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
+      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
       <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-      <li><a href="{{ '/member' | prepend: site.baseurl }}">member</a></li>
-      <li><a href="{{ '/publications' | prepend: site.baseurl }}">publications</a></li>
-      <li><a href="{{ '/research' | prepend: site.baseurl }}">research</a></li>
+      <li><a href="{{ '/member' | prepend: site.baseurl }}">Member</a></li>
+      <li><a href="{{ '/publications' | prepend: site.baseurl }}">Publications</a></li>
+      <li><a href="{{ '/research' | prepend: site.baseurl }}">Research</a></li>
     </ul>
   </div>
 </nav>
