@@ -25,7 +25,7 @@ permalink: /member/
   }
 
   article {
-    text-align: center;
+    text-align: left;
   }
 
   article img {
