@@ -3,39 +3,37 @@ layout: default
 title: Members
 permalink: /members/
 ---
-<h1>Our Members</h1>
-<div id="members">Loading...</div>
 
-<script>
-  fetch("{{ site.baseurl }}/data.json")
-    .then(response => response.json())
-    .then(json => {
-      let container = document.getElementById("members");
-      container.innerHTML = "";
+<style>
+  section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
 
-      Object.keys(json.member).forEach(category => {
-        if (json.member[category].length === 0) return;
+  @media (max-width: 1000px) {
+    section { grid-template-columns: repeat(2, 1fr); }
+  }
 
-        let section = document.createElement("section");
-        let h2 = document.createElement("h2");
-        h2.textContent = category;
-        section.appendChild(h2);
+  img {
+    width: 170px;
+    max-height: 230px;
+  }
+</style>
 
-        json.member[category].forEach(person => {
-          let article = document.createElement("article");
-          article.innerHTML = `
-            <a href="${person.url}">
-                <img src="{{ site.baseurl }}/resource/img/person/${person.name}.jpg" alt="${person.name}" />
-                <h3>${person.name}</h3>
-                <p>${person.period}</p>
-                <h5>${person.email}</h5>
-                <p>${person.description}</p>
-            </a>
-          `;
-          section.appendChild(article);
-        });
-
-        container.appendChild(section);
-      });
-    });
-</script>
+{% for degree in site.data.data.member %}
+  <h2>{{ degree[0] }}</h2>
+  <section>
+    {% for person in degree[1] %}
+      <article>
+        <a href="{{ person.url }}">
+          <img src="{{ '/resource/img/person/' | append: person.name | append: '.jpg' | relative_url }}" alt="{{ person.name }}">
+          <h3>{{ person.name }}</h3>
+          <p>{{ person.period }}</p>
+          <h5>{{ person.email }}</h5>
+          <p>{{ person.description }}</p>
+        </a>
+      </article>
+    {% endfor %}
+  </section>
+{% endfor %}
